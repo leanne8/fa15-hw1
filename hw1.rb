@@ -1,13 +1,16 @@
 def squared_sum(a, b)
-  # Q1 CODE HERE
+  x = a + b
+  sum = x * x
+  return sum
 end
 
 def sort_array_plus_one(a)
-  # Q2 CODE HERE
+   a.sort.map {|num| num + 1}
 end
 
 def combine_name(first_name, last_name)
-  # Q3 CODE HERE
+  combine = first_name + " " + last_name
+  return combine
 end
 
 def blockin_time(a)
@@ -15,3 +18,4 @@ def blockin_time(a)
   require './foobar'
   Foobar.baz a
 end
+
